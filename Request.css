@@ -1,0 +1,124 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255,0.25);
+}
+input{
+	width: 30%;
+    padding: 20px;
+    font-size: 14px;
+    background: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    border-radius: 6px;
+    display: grid;
+    margin: auto;
+}
+h1{
+	padding-bottom: 0.5em;
+	border-bottom-style: solid;
+	border-color: rgba(220, 228, 228, 1);
+	text-align: center;
+	font-size: 2.5em;
+	font-family: system-ui;
+	font-style: italic;
+	color: rgba(255, 211, 100, 1);
+	box-sizing: border-box;
+
+}
+#totalTip {
+	text-align: center;
+	font-size: 0.95em;
+	font-weight: bold;
+}
+h2 {
+	text-align: center;
+    display: block;
+    font-size: 0.95em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#calculate{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 2em;
+    width: 20%;
+    float: center;
+    cursor: pointer;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sitemap {
+    width: 33%;
+    float: left;
+}
+#sitemap ul li, #sitemap a{
+    text-decoration: none;
+    color: white;
+}
+.foot-menu {
+    width: 33%;
+    float: left;
+}
+li {
+    display: list-item;
+    text-align: left;
+}
+.foot-menu{
+    float: left;
+    text-align: left;
+    display: block;
+}
+.foot-menu ul {
+    margin: 40px 30px 30px 0px;
+    padding: 0px;
+}
+footer {
+    padding-top: 3em;
+    padding-bottom: 6em;
+    background: #202020;
+    color: white;
+    display: block;
+    height: 40%;
+}
+ul{
+    list-style: none;
+}
+
+.copy {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+p {
+    text-align: center;
+    margin-top: 3em;
+    display: block;
+    font-size: 1.17em;
+}
+section{
+    display: block;
+}
+
+#sitemap a:hover { 
+    color: yellow;
+}
+
+.foot-menu a:visited{
+    color: green;
+}

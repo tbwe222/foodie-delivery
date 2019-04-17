@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="logo.png"></a>
+		</div>
+		<nav class="scroll">
+			<ul>
+				<li><a href="#"> Sign-in</a></li>
+				<li>/</li>
+				<li><a href="register.html">Register</a></li>
+				<li>/</li>
+				<li><a href="request.html">Request</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="food-image">
+		<img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?cs=srgb&dl=food-dinner-lunch-70497.jpg&fm=jpg">
+		<h1 > Try A New Meal Today </h1>
+	</section>
+	<div class="find">
+		<h2> Find a driver near you!</h2>
+		<p> Type in your zipcode below and click Go! To find a driver near you.</p>
+		<div class="checker">
+			<input id="cityZip" type="number" name="Go!" placeholder="zipcode" minlength="5" maxlength="5" class="inp-wd">
+			<button id="cityChecker" type="button" onclick="updateCity()"> GO! </button>
+			<div id="cityCheck" class="red red red"></div>
+		</div>
+	</div>
+</body>
+
+<footer>
+	<div class="container">
+		<div id="sitemap" class="foot-menu">
+			<ul>
+				<li><a href="index.html">Home </a> </li>
+				<li><a href="register.html">Register</a> </li>
+				<li><a href="about.html">How it All Works </a> </li>
+			</ul>
+		</div>
+		<div id="sitemap" class="foot-menu">
+			<ul>
+				<li>Privacy Policy</li> 
+			  	<li>Terms & Conditions</li>
+			</ul> 
+		</div>
+		<div id="sitemap" class="foot-menu">
+			<h3>&copy;2015.All rights reserved.</h3>
+		</div>
+	</div>
+	<section class="copy">
+		<p>Food is Good! </p>
+	</section>
+</footer>
+<script type="text/javascript" src="index.js"></script>
+<script>
+function myFunction() {
+    setTimeout(function(){ alert("HELLO! THANK YOU FOR CHOOSING FOODIE!"); }, 5000);
+}
+
+myFunction();
+</script>
+</html>

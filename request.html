@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Request </title>
+	<link rel="stylesheet" type="text/css" href="request.css">
+</head>
+<body>
+	<header>
+		<div class="form">
+			<a href="index.html"><img src="logo.png"></a>
+		</div>
+	</header>
+	<h1>SUBMIT YOUR REQUEST</h1>
+	<p>Please fill out the form below.</p>
+	<form id="form" method="post"></form>
+	<h2><color: blue>Address:</h2> <input type="Email" required="Email" placeholder="Email" </color>>
+	<h2>Choose Your Style:</h2> 
+	<div id="userChoice">
+		<h2> Classic (This is a classic tratment) </h2><input class="food-style" type="radio" name="userChoice" value="3" onclick="calculateTip()">
+		<h2>Premium (Pinky's Up) </h2><input class="food-style" type="radio" name="userChoice" value="5" onclick="calculateTip()"> 
+		<h2> Royal (Your food is Served on a Silver platter litteraly) </h2><input class="food-style" type="radio" name="userChoice" value="10" onclick="calculateTip()"">
+	</div>
+
+	<h2> Resturant:  </h2> <input type="text" name="address" placeholder="Name">
+	<h2>Tip: </h2> 
+	<div id="serviceQual">
+		<h2>10&#37; &#45; They did their job. </h2><input class="food-tip" type="radio" name="Tip" value="10" onclick="calculateTip()"> 
+		<h2>15&#37; &#45; Made you feel special.</h2><input class="food-tip" type="radio" name="Tip" value="15" onclick="calculateTip()"> 
+		<h2>20&#37; &#45; I wanna give them more, but this all I Have!</h2> <input class="food-tip" type="radio" name="Tip" value="20"onclick="calculateTip()"> 
+	</div>
+
+	<h2>Total $:</h2> <div id="totalTip">
+    	<span id="tip" ><h2> 0.00 </h2></span>
+	<button id="calculate" type="button"> Request </button>
+	<script type="text/javascript" src="request.js"></script>
+
+</body>
+<footer>
+	<div class="container">
+		<div id="sitemap" class="foot-menu">
+			<ul>
+				<li><a href="index.html">Home </a> </li>
+				<li><a href="register.html">Register</a> </li>
+				<li><a href="about.html">How it All Works </a> </li>
+			</ul>
+		</div>
+		<div id="sitemap" class="foot-menu">
+			<ul>
+				<li>Privacy Policy</li> 
+			  	<li>Terms & Conditions</li>
+			</ul> 
+		</div>
+		<div id="sitemap" class="foot-menu">
+			<h3> Food is Good! </h3>
+		</div>
+	</div>
+	<section class="copy">
+		<p>&copy;2015.All rights reserved.</p>
+	</section>
+</footer>
+</html>

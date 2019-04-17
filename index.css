@@ -1,0 +1,154 @@
+.logo {
+    width: 20%;
+    float: left;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255,0.25);
+}
+header, h1 {
+    text-transform: uppercase;
+}
+.scroll {
+    width: 25%;
+    float: right;
+}
+.scroll ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    list-style-type: none;
+}
+
+.scroll ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+ul {
+    list-style: none;
+}
+
+ul, .scroll {
+    display: inline-block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+    height: 100%;
+}
+
+#food-image img {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: relative;
+}
+
+ #food-image h1 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30pt;
+ 
+}
+h2{
+    text-align: center;
+}
+.checker{
+    text-align: center;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div {
+    display: block;
+}
+.sitemap {
+    width: 40%;
+    float: left;
+}
+#sitemap {
+    margin-right: 3px;
+}
+#sitemap ul li, #sitemap a{
+    text-decoration: none;
+    color: white;
+}
+.foot-menu {
+    width: 40%;
+    float: left;
+}
+li {
+    display: list-item;
+    text-align: left;
+}
+
+.foot-menu{
+    float: left;
+    text-align: left;
+    display: block;
+}
+.foot-menu ul {
+    margin: 40px 30px 30px 0px;
+    padding: 0px;
+}
+footer {
+    padding: 10px;
+    background: #202020;
+    color: white;
+    display: block;
+    height: 30%;
+}
+
+ul{
+    list-style: none;
+}
+
+.copy {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    margin-top: 2em;
+    display: block;
+    font-size: 1.17em;
+}
+section{
+    display: block;
+}
+
+#sitemap a:hover { 
+    color: yellow;
+}
+
+.foot-menu a:visited{
+    color: green;
+}
